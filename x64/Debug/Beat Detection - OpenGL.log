@@ -1,0 +1,32 @@
+﻿Build started 12/24/2014 5:32:46 PM.
+     1>Project "C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\Beat Detection - OpenGL\Beat Detection - OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IDXUT11\Core /IDXUT11\Optional /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Track.cpp
+         Track.cpp
+     1>Track.cpp(68): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>Track.cpp(192): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(201): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(308): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(310): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(338): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(340): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(342): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(379): warning C4244: 'argument' : conversion from 'double' to 'GLsizei', possible loss of data
+     1>Track.cpp(405): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Track.cpp(438): warning C4244: 'return' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\x64\Debug\Beat Detection - OpenGL.exe" /INCREMENTAL /NOLOGO ILUT.lib ILU.lib DevIL.lib glew32.lib freeglut.lib winmm.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\x64\Debug\Beat Detection - OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\x64\Debug\Beat Detection - OpenGL.lib" /MACHINE:X64 x64\Debug\Audio.obj
+         x64\Debug\Camera.obj
+         x64\Debug\SDKwavefile.obj
+         x64\Debug\FFT.obj
+         x64\Debug\Image.obj
+         x64\Debug\main.obj
+         x64\Debug\Shader.obj
+         x64\Debug\Track.obj
+         Beat Detection - OpenGL.vcxproj -> C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\x64\Debug\Beat Detection - OpenGL.exe
+     1>Done Building Project "C:\Users\kjpick15\Documents\Visual Studio 2013\Projects\Beat Detection - OpenGL\Beat Detection - OpenGL\Beat Detection - OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.57
